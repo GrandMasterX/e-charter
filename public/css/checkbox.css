@@ -1,0 +1,13 @@
+label {-webkit-touch-callout: none; -webkit-user-select: none;
+		-khtml-user-select: none; -moz-user-select: none;
+		-ms-user-select: none; user-select: none;}
+input[type=checkbox].transport {position: absolute; overflow: hidden;
+		clip: rect(0 0 0 0); height: 1px; display: block;
+		width: 1px; margin: -1px; padding: 0; border: 0;}
+input[type=checkbox].transport + label.label_text {vertical-align: inherit; cursor: pointer;
+		padding-left: 19px; height: 13px; display: inline-block; line-height: 13px;
+		background-repeat: no-repeat;}
+input[type=checkbox].transport:checked + label.label_text {background-position: left bottom;}
+.label_text {display: block; background: url('../img/checkbox_ico.png') left top no-repeat;}
+
+
